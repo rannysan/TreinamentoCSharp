@@ -1,0 +1,10 @@
+C:\Users\raniel\source\repos\Training\TrainingProject\bin\Debug\TrainingProject.exe.config
+C:\Users\raniel\source\repos\Training\TrainingProject\bin\Debug\TrainingProject.exe
+C:\Users\raniel\source\repos\Training\TrainingProject\bin\Debug\TrainingProject.pdb
+C:\Users\raniel\source\repos\Training\TrainingProject\obj\Debug\TrainingProject.csprojAssemblyReference.cache
+C:\Users\raniel\source\repos\Training\TrainingProject\obj\Debug\TrainingProject.csproj.CoreCompileInputs.cache
+C:\Users\raniel\source\repos\Training\TrainingProject\obj\Debug\TrainingProject.exe
+C:\Users\raniel\source\repos\Training\TrainingProject\obj\Debug\TrainingProject.pdb
+C:\Users\raniel\source\repos\Training\TrainingProject\bin\Debug\Dapper.dll
+C:\Users\raniel\source\repos\Training\TrainingProject\bin\Debug\Dapper.xml
+C:\Users\raniel\source\repos\Training\TrainingProject\obj\Debug\TrainingProject.csproj.CopyComplete
