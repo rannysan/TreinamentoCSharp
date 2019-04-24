@@ -19,11 +19,6 @@ namespace TrainingProject.Service
             {
                 UserList = con.Query<User>(queryString).ToList();
             }
-        }
-
-        //Printar todos Usuarios
-        public  void PrintUsers()
-        {
             if (UserList != null)
             {
                 foreach (var user in UserList)
@@ -32,6 +27,8 @@ namespace TrainingProject.Service
                 }
             }
         }
+
+       
 
         //Adicionar usuario via comando sql
         public int InsertUser(DynamicParameters InsertValues)

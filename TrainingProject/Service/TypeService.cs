@@ -20,10 +20,6 @@ namespace TrainingProject.Service
             {
                 TypeList = con.Query<Type>(queryString).ToList();
             }
-        }
-
-        public void PrintTypes()
-        {
             if (TypeList != null)
             {
                 foreach (var type in TypeList)
@@ -32,6 +28,7 @@ namespace TrainingProject.Service
                 }
             }
         }
+     
 
         public int InserType(DynamicParameters InsertValues)
         {

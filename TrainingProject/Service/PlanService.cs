@@ -43,10 +43,7 @@ namespace TrainingProject.Service
                     return p;
                 }).ToList();
             }
-        }
 
-        public void PrintPlans()
-        {
             if (PlansList != null)
             {
                 foreach (var plan in PlansList)

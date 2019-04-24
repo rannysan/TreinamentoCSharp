@@ -88,7 +88,7 @@ namespace TrainingProject.View
                 case 1:
                     Console.Clear();
                     UService.QueryUser();
-                    UService.PrintUsers();
+                    //UService.PrintUsers();
                     Console.WriteLine("\r\nPrecione ENTER para voltar...");
                     Console.ReadLine();
                     Console.Clear();
@@ -125,7 +125,7 @@ namespace TrainingProject.View
                 case 3:
                     Console.Clear();
                     UService.QueryUser();
-                    UService.PrintUsers();
+                    //UService.PrintUsers();
                     Console.Write("\r\nDigite o ID do usuário q deseja atualizar: ");
                     int id = Convert.ToInt32(Console.ReadLine());
 
@@ -166,7 +166,7 @@ namespace TrainingProject.View
                 case 4:
                     Console.Clear();
                     UService.QueryUser();
-                    UService.PrintUsers();
+                   //UService.PrintUsers();
                     Console.Write("\r\nDigite o ID do usuário q deseja deletar: ");
                     
                     if (UService.DeleteUser(Convert.ToInt32(Console.ReadLine())) != 0)
@@ -229,7 +229,7 @@ namespace TrainingProject.View
                 case 1:
                     Console.Clear();
                     PService.QueryPlans();
-                    PService.PrintPlans();
+                    //PService.PrintPlans();
                     Console.WriteLine("\r\nPrecione ENTER para voltar...");
                     Console.ReadLine();
                     Console.Clear();
@@ -281,7 +281,7 @@ namespace TrainingProject.View
                 case 3:
                     Console.Clear();
                     PService.QueryPlans();
-                    PService.PrintPlans();
+                    //PService.PrintPlans();
                     Console.Write("\r\nDigite o ID do Plano q deseja atualizar: ");
                     int id = Convert.ToInt32(Console.ReadLine());
 
@@ -334,7 +334,7 @@ namespace TrainingProject.View
                 case 4:
                     Console.Clear();
                     PService.QueryPlans();
-                    PService.PrintPlans();
+                    //PService.PrintPlans();
                     Console.Write("\r\nDigite o ID do usuário q deseja deletar: ");
 
                     if (PService.DeletePlan(Convert.ToInt32(Console.ReadLine())) != 0)
@@ -396,7 +396,7 @@ namespace TrainingProject.View
                 case 1:
                     Console.Clear();
                     TService.QueryType();
-                    TService.PrintTypes();
+                    //TService.PrintTypes();
                     Console.WriteLine("\r\nPrecione ENTER para voltar...");
                     Console.ReadLine();
                     Console.Clear();
@@ -432,7 +432,7 @@ namespace TrainingProject.View
                 case 3:
                     Console.Clear();
                     TService.QueryType();
-                    TService.PrintTypes();
+                    //TService.PrintTypes();
                     Console.Write("\r\nDigite o ID do tipo q deseja atualizar: ");
                     int id = Convert.ToInt32(Console.ReadLine());
 
@@ -467,7 +467,7 @@ namespace TrainingProject.View
                 case 4:
                     Console.Clear();
                     TService.QueryType();
-                    TService.PrintTypes();
+                    //TService.PrintTypes();
                     Console.Write("\r\nDigite o ID do Tipo q deseja deletar: ");
 
                     if (TService.DeleteType(Convert.ToInt32(Console.ReadLine())) != 0)
@@ -521,7 +521,7 @@ namespace TrainingProject.View
                 case 1:
                     Console.Clear();
                     SService.QueryStatus();
-                    SService.PrintStatus();
+                    //SService.PrintStatus();
                     Console.WriteLine("\r\nPrecione ENTER para voltar...");
                     Console.ReadLine();
                     Console.Clear();
@@ -557,7 +557,7 @@ namespace TrainingProject.View
                 case 3:
                     Console.Clear();
                     SService.QueryStatus();
-                    SService.PrintStatus();
+                    //SService.PrintStatus();
                     Console.Write("\r\nDigite o ID do tipo q deseja atualizar: ");
                     int id = Convert.ToInt32(Console.ReadLine());
 
@@ -592,7 +592,7 @@ namespace TrainingProject.View
                 case 4:
                     Console.Clear();
                     SService.QueryStatus();
-                    SService.PrintStatus();
+                    //SService.PrintStatus();
                     Console.Write("\r\nDigite o ID do Tipo q deseja deletar: ");
 
                     if (SService.DeleteStatus(Convert.ToInt32(Console.ReadLine())) != 0)
